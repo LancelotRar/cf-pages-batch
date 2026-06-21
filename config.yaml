@@ -16,10 +16,10 @@ accounts:
       kv_binding: KV
       project_type: production
     env:
-      UUID:
+      - name: UUID
         type: plain_text
         value: 31f549bd-6265-4099-a9c2-5ef86aada3a2
-      ADMIN:
+      - name: ADMIN
         type: plain_text
         value: li19882008
 
@@ -34,10 +34,10 @@ accounts:
       kv_binding: KV
       project_type: production
     env:
-      UUID:
+      - name: UUID
         type: plain_text
         value: 31f549bd-6265-4099-a9c2-5ef86aada3a2
-      ADMIN:
+      - name: ADMIN
         type: plain_text
         value: li19882008
 
@@ -52,10 +52,10 @@ accounts:
       kv_binding: KV
       project_type: production
     env:
-      UUID:
+      - name: UUID
         type: plain_text
         value: 31f549bd-6265-4099-a9c2-5ef86aada3a2
-      ADMIN:
+      - name: ADMIN
         type: plain_text
         value: li19882008
 
@@ -70,10 +70,10 @@ accounts:
       kv_binding: KV
       project_type: production
     env:
-      UUID:
+      - name: UUID
         type: plain_text
         value: 31f549bd-6265-4099-a9c2-5ef86aada3a2
-      ADMIN:
+      - name: ADMIN
         type: plain_text
         value: li19882008
 
@@ -88,9 +88,9 @@ accounts:
       kv_binding: KV
       project_type: production
     env:
-      UUID:
+      - name: UUID
         type: plain_text
         value: 31f549bd-6265-4099-a9c2-5ef86aada3a2
-      ADMIN:
+      - name: ADMIN
         type: plain_text
         value: li19882008
